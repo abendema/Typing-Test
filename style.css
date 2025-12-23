@@ -14,3 +14,42 @@ body{
   font-family: monospace;
   font-size: 1.5rem;
 }
+
+
+#text-container{
+   width: 800px;
+   height: auto;
+   margin: 20px auto;
+   line-height: 2rem;
+   white-space: nowrap;
+   background-color: white;
+   padding: 10px;
+   border-radius: 5px;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   position: relative;
+   cursor: none;
+}
+
+#timer{
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+button{
+  padding: 10px;
+  width: 150px;
+  background-color: #60b7ee;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover{
+  filter: brightness(1.2);
+}
