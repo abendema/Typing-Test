@@ -1,0 +1,16 @@
+html{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  height: 100vh;
+  background-color: pink;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  font-size: 1.5rem;
+}
